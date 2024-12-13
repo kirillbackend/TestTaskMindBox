@@ -1,3 +1,0 @@
-select p.Name as 'Products Name', c.Name as 'Сategory Name' from Products as p
-left join ProductsСategory as pc on p.Id = ProductsId 
-left join Сategory as c on pc.СategoryId = c.Id
